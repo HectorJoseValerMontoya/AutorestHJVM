@@ -7,26 +7,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : hecto
 */
 
-.boton{
+/*INICIO Para boton: AgregarEmpleado, */
+.boton1{
     display: block;
     font-weight: 700;
     background-color: blue;
     padding: 15px 30px;
     border-radius: 10px;
     color: white;
+    border-color: transparent;
+    transition-duration: 0.5s;
+    font-size: 0px;
+    font-size: 18px;
 }
 
-.boton:hover {
-    transition-duration: 3s;
+.boton1:hover {
     color: yellow;
     border-radius: 100px;
+    padding: 70px 15px;
     background-color: green;
 }
 
-.boton:hover{
-    transition-duration: 3s;
-    background-color: blue;
+.boton2{
+    display: block;
+    font-weight: 700;
+    background-color: red;
+    padding: 5px 15px;
     border-radius: 10px;
     color: white;
-
+    border-color: transparent;
+    transition-duration: 0.5s;
+    font-size: 0px;
+    font-size: 18px;
 }
+
+.boton2:hover{
+    color: yellow;
+    border-radius: 100px;
+    padding: 40px 15px;
+    background: green;
+}
+/*FIN Para boton: AgregarEmpleado, */
+
+
+
+

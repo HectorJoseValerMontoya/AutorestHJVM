@@ -4,21 +4,34 @@
  */
 package modelo;
 
+import dao.PerfilEmpleado;
 import sun.security.util.Password;
 
 /**
  *
  * @author Axel
  */
-public class Empleado {
-    private int codPerfil;
-    private String cargo;
+public class Empleado extends PerfilEmpleado{
     
+    
+    public Empleado(){
+        
+    }
+    
+    public Empleado(int codigo, String cargo, String nombre, String apellido, String pass, int estado){
+        this.codPerfil = codigo;
+        this.cargo = cargo;
+        this.codEmpleado = codigo;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.pass = pass;
+        this.estado = estado;
+    }
     
     private int codEmpleado;
     private String nombre;
     private String apellido;
-    private Password pass;
+    private String pass;
     private int estado;
 
     public int getCodPerfil() {
@@ -61,11 +74,11 @@ public class Empleado {
         this.apellido = apellido;
     }
 
-    public Password getPass() {
+    public String getPass() {
         return pass;
     }
 
-    public void setPass(Password pass) {
+    public void setPass(String pass) {
         this.pass = pass;
     }
 

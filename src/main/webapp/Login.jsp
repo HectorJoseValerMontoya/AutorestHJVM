@@ -9,19 +9,28 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/adminlte.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/posiciones.css" rel="stylesheet" type="text/css"/>
+        <link href="css/boton.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contenido.css" rel="stylesheet" type="text/css"/>
+        <link href="css/titulos.css" rel="stylesheet" type="text/css"/>
         <title>Login for restaurant</title>
     </head>
-    <body>
-    <center>
-
-        <div class="centro-centro">
-            <h1>Bienvenido</h1>
-            <input type="text" name="user" placeholder="Usuario">
+    <body class="">
+    <center >
+        <form action="servlet">
+            <input type="hidden" name="opc" value="2">
+            <div class="placeHolderCenter">
+                <h1 class="titulo">Bienvenido</h1>
+                <input type="number" name="user" placeholder="Usuario">
+                <br>
+                <input type="password" name="contrasenia" placeholder="Contraseña">
+            </div>
+            <input class="boton2" type="submit" value="Ingresar">
             <br>
-            <input type="password" name="contrasenia" placeholder="Contraseña">
-        </div>
+            <br>
+            <br>
+            <a href="Registrarse.jsp">¿No se ha registrado? VAYA A REGISTRARSE!!!</a>
+        </form>
     </center>
 </body>
 </html>
