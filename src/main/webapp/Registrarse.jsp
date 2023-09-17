@@ -6,13 +6,13 @@
 
 <%@page import="dao.EmpleadoDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="css/posiciones.css" rel="stylesheet" type="text/css"/>
         <link href="css/adminlte.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/botones.css" rel="stylesheet" type="text/css"/>
+        <link href="css/boton.css" rel="stylesheet" type="text/css"/>
         <title>Registro de empleado</title>
     </head>
     <body class="centro-centro ">
@@ -29,7 +29,9 @@
         <br>
         <input type="password" name="password" placeholder="Contraseña">
         <br>
-        <div class="btn boton bg-blue"><label class="btn text-white">Agregar Empleado </label></div>
+        <!--  <div class="btn boton bg-blue"><label class="btn text-white">Agregar Empleado </label></div>-->
+        <a class="boton" href="servlet?opc=1">Agregar Empleado</a>
+        
 
 
     </body>
