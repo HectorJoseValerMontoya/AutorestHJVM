@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="dao., modelo.Mesa" %>
+<%@page import="dao.MesaDAO, modelo.Mesa" %>
 <!DOCTYPE html>
 <html>
     <head>
