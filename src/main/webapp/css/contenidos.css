@@ -20,6 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 
 .enLinea{
     display: flex;
+    
 }
 
 .centrar{
@@ -34,10 +35,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     text-align: left;
     cursor: pointer;
 }
-.placeHolderCenter {
-  height: 100px;
+
+::-webkit-input-placeholder {
+    color: #808080;
+    text-align: center;
+    font-size: 18px;
 }
-.placeHolderCenter::-webkit-input-placeholder {
-  text-align: center;
-  line-height: 100px;/* Centrado vertical */
+
+input{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+select {
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-size: 18px;
 }

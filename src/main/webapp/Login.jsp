@@ -21,7 +21,7 @@
             <input type="hidden" name="opc" value="2">
             <div class="placeHolderCenter">
                 <h1 class="titulo">Bienvenido</h1>
-                <input type="number" name="user" placeholder="Usuario">
+                <input style="margin-top: 10px;" type="number" name="user" placeholder="Usuario">
                 <br>
                 <input type="password" name="contrasenia" placeholder="Contraseña">
             </div>

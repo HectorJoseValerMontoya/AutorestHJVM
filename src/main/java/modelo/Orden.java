@@ -9,6 +9,7 @@ import java.util.Date;
  * @author Axel
  */
 public class Orden {
+    
     int CodOrden;
     int CodEmpleado;
     int CodMesa;

@@ -22,6 +22,10 @@
         %>
         <h1 class="titulo">Agregar al Pedido</h1>
 
+        <input type="text" name="name" onkeydown="">
+        
+        
+        <!--
         <form action="servlet">
             <table border="1">
                 <thead>
@@ -39,25 +43,29 @@
 
                     %>
 
-                    <tr><td><%=plato.getCodigoPlato()%><td><%=plato.getNombre()%><td><input type="number" name="cantidadPlato<%=plato.getCodigoPlato()%>"><td></td></tr>
+                    <tr><td><%=plato.getCodigoPlato()%>
+                        <td><img src="<%=plato.getFoto()%>" width="100xp" alt="Plato=<%=plato.getNombre()%>"/>
+                        <td><%=plato.getNombre()%>
+                        <td><input type="number" name="cantidadPlato<%=plato.getCodigoPlato()%>">
+                        <td><a href="proceso.jsp?cod=<%=plato.getCodigoPlato()%>&cant="></a>
+                    </td></tr>
 
                     <%
                         }
                     %>
-
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
                 </tbody>
             </table>
-                    
-                    
-        </form>
+            <input type="submit">
 
+        </form>
+        -->
+        
+        
+        <script>
+            function buscar(){
+                
+            }
+        </script>
 
     </body>
 </html>
