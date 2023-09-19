@@ -10,12 +10,22 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/titulos.css" rel="stylesheet" type="text/css"/>
         <title>Administración de Mesa</title>
     </head>
     <body>
         <%
-            
+            String numeroMesa = (String)request.getParameter("codMesa");
         %>
-        <h1>Bienvenido a la mesa # </h1>
+        <h1 class="titulo">Bienvenido a la mesa # <%=numeroMesa%></h1>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a class="link" href="AgregarPedido.jsp">
+                <img src="imagenes/mas.png" width="100px" height="100px" alt="alt"/>
+                Agregar al pedido
+            </a>
+        </div>
     </body>
 </html>

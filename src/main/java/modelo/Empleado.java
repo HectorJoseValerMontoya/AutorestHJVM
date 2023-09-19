@@ -4,7 +4,6 @@
  */
 package modelo;
 
-import dao.PerfilEmpleado;
 import sun.security.util.Password;
 
 /**

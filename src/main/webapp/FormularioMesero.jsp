@@ -28,7 +28,7 @@
             %>
             <div class="imgMesa">
                 <div class="">
-                    <a class="link" href="#">
+                    <a class="link" href="MesaInterna.jsp?codMesa=<%=i%>">
                         <img src="imagenes/mesa.png" alt="MESA<%=i%>"></img> 
                         <label>MESA <%=i%></label>
                     </a>

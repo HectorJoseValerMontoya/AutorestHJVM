@@ -72,6 +72,9 @@ public class servlet extends HttpServlet {
             if (empdao.existeEmpleado(emp)){
                 request.setAttribute("empleadoActual", empdao.datosEmpleado(usuario));
                 request.getRequestDispatcher("/FormularioMesero.jsp").forward(request, response);
+            }else{
+                request.getRequestDispatcher("/LoginIncorrecto.jsp").forward(request, response);
+                
             }
         }
     }
