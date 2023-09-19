@@ -3,10 +3,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : 16 set. 2023, 18:17:13
+    Created on : 18 set. 2023, 20:27:18
     Author     : HJVM
 */
-
 
 
 .centro-centro{
@@ -17,6 +16,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     justify-content: center;
 }
 
+.centrarContenidoHorizontal{
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.espaciadoDerecho{
+    margin-right: 50px;
+}

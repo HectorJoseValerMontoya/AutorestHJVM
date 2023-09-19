@@ -9,14 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/posiciones.css" rel="stylesheet" type="text/css"/>
-        <link href="css/boton.css" rel="stylesheet" type="text/css"/>
-        <link href="css/contenido.css" rel="stylesheet" type="text/css"/>
-        <link href="css/titulos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/posicion.css" rel="stylesheet" type="text/css"/>
+        <link href="css/botonBasico.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contenidos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/titulo.css" rel="stylesheet" type="text/css"/>
         <title>Login for restaurant</title>
     </head>
     <body class="">
-    <center >
+    <center>
         <form action="servlet">
             <input type="hidden" name="opc" value="2">
             <div class="placeHolderCenter">
@@ -29,7 +29,9 @@
             <br>
             <br>
             <br>
+            
             <a href="Registrarse.jsp">¿No se ha registrado? VAYA A REGISTRARSE!!!</a>
+            
         </form>
     </center>
 </body>

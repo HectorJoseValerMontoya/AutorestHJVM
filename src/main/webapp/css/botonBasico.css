@@ -3,12 +3,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : 17 set. 2023, 00:14:00
-    Author     : hecto
+    Created on : 18 set. 2023, 20:19:09
+    Author     : HJVM
 */
 
 
-/*INICIO Para boton: AgregarEmpleado, */
 .boton1{
     display: block;
     font-weight: 700;
@@ -38,7 +37,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     color: white;
     border-color: transparent;
     transition-duration: 0.5s;
-    font-size: 0px;
     font-size: 18px;
 }
 
@@ -48,8 +46,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding: 40px 15px;
     background: green;
 }
-/*FIN Para boton: AgregarEmpleado, */
 
-
-
-
+.boton3{
+    display: flex;
+    background-color: green;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    justify-content: center;
+    transition-duration: 0.5s;
+}

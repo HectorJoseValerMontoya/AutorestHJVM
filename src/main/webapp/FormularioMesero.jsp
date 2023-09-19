@@ -10,8 +10,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/titulos.css" rel="stylesheet" type="text/css"/>
-        <link href="css/contenido.css" rel="stylesheet" type="text/css"/>
+        <link href="css/titulo.css.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contenidos.css" rel="stylesheet" type="text/css"/>
         <title>Area de Meseros</title>
     </head>
     <body>
